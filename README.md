@@ -75,4 +75,4 @@ endmodule
 ![Screenshot 2025-01-01 144829](https://github.com/user-attachments/assets/f71fe771-b86a-4d0e-82fb-e943c5b656d5)
 
 ## RESULTS:
-Thus the program executed successfully.
+The implementation of synchronous up counter is tested and verified .
