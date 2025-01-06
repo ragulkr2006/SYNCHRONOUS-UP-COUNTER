@@ -1,16 +1,19 @@
-### SYNCHRONOUS-UP-COUNTER
+## NAME : RAGUL K R
+## REG NO: 24900660
+## EXP NO 07: IMPLEMENTATION OF SYNCHRONOUS UP COUNTER 
 
-**AIM:**
+
+## AIM:
 
 To implement 4 bit synchronous up counter and validate functionality.
 
-**SOFTWARE REQUIRED:**
+## SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+## THEORY
 
-**4 bit synchronous UP Counter**
+## 4 bit synchronous UP Counter:
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
@@ -26,7 +29,7 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
-**Procedure**
+## Procedure:
 
 
 1.Initialize the shift register to a known state (e.g., all zeros).
@@ -40,7 +43,7 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 5.Repeat steps 2-4 for each bit you want to input and shift.
 
 
-**PROGRAM**
+## PROGRAM:
 
 ```
 Program for flipflops and verify its truth table in quartus using Verilog programming. 
@@ -61,15 +64,15 @@ end
 endmodule
 ```
 
-**RTL LOGIC UP COUNTER**
+## RTL LOGIC UP COUNTER:
 ![Screenshot 2025-01-01 144741](https://github.com/user-attachments/assets/6f238aec-40be-4703-8743-a8b9dc6202a5)
 
 
-**TIMING DIAGRAM FOR IP COUNTER**
+## TIMING DIAGRAM FOR IP COUNTER:
 ![Screenshot 2025-01-01 144811](https://github.com/user-attachments/assets/9650631d-a51c-498f-993b-d900a813c861)
 
-**TRUTH TABLE**
+## TRUTH TABLE:
 ![Screenshot 2025-01-01 144829](https://github.com/user-attachments/assets/f71fe771-b86a-4d0e-82fb-e943c5b656d5)
 
-**RESULTS**
+## RESULTS:
 Thus the program executed successfully.
