@@ -69,7 +69,8 @@ endmodule
 
 
 ## TIMING DIAGRAM FOR IP COUNTER:
-![Screenshot 2025-01-01 144811](https://github.com/user-attachments/assets/9650631d-a51c-498f-993b-d900a813c861)
+![WhatsApp Image 2025-01-07 at 09 13 24_29075446](https://github.com/user-attachments/assets/31b662d2-92bb-4e0f-a2f2-6d123f8d0091)
+
 
 ## TRUTH TABLE:
 ![Screenshot 2025-01-01 144829](https://github.com/user-attachments/assets/f71fe771-b86a-4d0e-82fb-e943c5b656d5)
